@@ -1,0 +1,37 @@
+public class book {
+    String Title;String author;int cost;String yearpublished;
+    public void book(String Title, String author,
+                         int cost, String yearpublished) {
+        this.Title = Title;
+        this.author = author;
+        this.cost = cost;
+        this.yearpublished = yearpublished;}
+    public book(String javaprogramming, String author, String yearpublish) {
+    }public String getName() {
+        return Title;}public String getAuthor() {
+        return author;}public int getCost() {
+        return cost;}public String getYearpublished() {
+        return yearpublished;
+    }
+    public static void main(String[] args)
+    {
+        // creating object using new operator
+        book c1 = new book("java","author","yearpublish");
+
+        System.out.println(" Title: java programming ");
+        System.out.println(" Author: john smith  ");
+        System.out.println(" year published: 2021 ");
+        System.out.println(" cost: $39.99 ");
+
+        System.out.println(" Title: python basics ");
+        System.out.println(" Author: jane doe  ");
+        System.out.println(" year published: 2020 ");
+        System.out.println(" cost: $29.99 ");
+
+        System.out.println(" Title: c++ Essentials ");
+        System.out.println(" Author: Michael johnson ");
+        System.out.println(" year published: 2019 ");
+        System.out.println(" cost: $49.99 ");
+
+    }
+}
